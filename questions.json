@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "O11",
+    "type": "oreo",
+    "prompt": "What is wrong with “Phones are bad because bad”?",
+    "opts": [
+      "No title",
+      "The reason is vague and repetitive",
+      "It is too formal",
+      "It has an example"
+    ],
+    "answer": 1,
+    "explain": "Give a specific reason: distraction, sleep, safety, etc.",
+    "value": 15
+  },
+  {
+    "id": "V55",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “variety”?",
+    "opts": [
+      "להתקיים",
+      "מדויק",
+      "תוצאה",
+      "מגוון"
+    ],
+    "answer": 3,
+    "explain": "variety = מגוון",
+    "value": 10,
+    "word": "variety"
+  },
+  {
+    "id": "V1",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “achieve”?",
+    "opts": [
+      "מודע",
+      "להשיג",
+      "מאמץ",
+      "להתמקד"
+    ],
+    "answer": 1,
+    "explain": "achieve = להשיג",
+    "value": 10,
+    "word": "achieve"
+  },
+  {
+    "id": "O18",
+    "type": "oreo",
+    "prompt": "What should you do before writing your OREO paragraph?",
+    "opts": [
+      "Copy the question",
+      "Plan your opinion, reason and example",
+      "Only count words",
+      "Write a random conclusion"
+    ],
+    "answer": 1,
+    "explain": "A quick plan makes writing focused and coherent.",
+    "value": 15
+  },
+  {
+    "id": "V49",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “respond”?",
+    "opts": [
+      "ליצור",
+      "מודע",
+      "להגיב",
+      "אחריות"
+    ],
+    "answer": 2,
+    "explain": "respond = להגיב",
+    "value": 10,
+    "word": "respond"
+  },
+  {
+    "id": "O10",
+    "type": "oreo",
+    "prompt": "Choose the best concluding phrase.",
+    "opts": [
+      "First of all",
+      "Such as",
+      "For instance",
+      "To sum up"
+    ],
+    "answer": 3,
+    "explain": "To sum up signals the conclusion.",
+    "value": 15
+  },
+  {
+    "id": "V20",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “effort”?",
+    "opts": [
+      "להגיב",
+      "ניסיון",
+      "מאמץ",
+      "נחוץ"
+    ],
+    "answer": 2,
+    "explain": "effort = מאמץ",
+    "value": 10,
+    "word": "effort"
+  },
+  {
+    "id": "V3",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “affect”?",
+    "opts": [
+      "להשפיע",
+      "אתגר",
+      "סביבה",
+      "להגדיל"
+    ],
+    "answer": 0,
+    "explain": "affect = להשפיע",
+    "value": 10,
+    "word": "affect"
+  },
+  {
+    "id": "O13",
+    "type": "oreo",
+    "prompt": "Which is a suitable opinion-writing topic?",
+    "opts": [
+      "Explain every date in 1980.",
+      "Should students have homework every day?",
+      "List ten verbs.",
+      "Translate the passage."
+    ],
+    "answer": 1,
+    "explain": "Opinion tasks ask you to take and defend a position.",
+    "value": 15
+  },
+  {
+    "id": "V28",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “express”?",
+    "opts": [
+      "לדרוש",
+      "סוגיה",
+      "משמעותי",
+      "להביע"
+    ],
+    "answer": 3,
+    "explain": "express = להביע",
+    "value": 10,
+    "word": "express"
+  },
+  {
+    "id": "V42",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “prevent”?",
+    "opts": [
+      "להגיב",
+      "למנוע",
+      "להשיג",
+      "לטעון"
+    ],
+    "answer": 1,
+    "explain": "prevent = למנוע",
+    "value": 10,
+    "word": "prevent"
+  },
+  {
+    "id": "V34",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “involve”?",
+    "opts": [
+      "להשפיע",
+      "לתמוך",
+      "לערב",
+      "לשכנע"
+    ],
+    "answer": 2,
+    "explain": "involve = לערב",
+    "value": 10,
+    "word": "involve"
+  },
+  {
+    "id": "V33",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “influence”?",
+    "opts": [
+      "מקור",
+      "הזדמנות",
+      "השפעה",
+      "מדויק"
+    ],
+    "answer": 2,
+    "explain": "influence = השפעה",
+    "value": 10,
+    "word": "influence"
+  },
+  {
+    "id": "V17",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “convince”?",
+    "opts": [
+      "רלוונטי",
+      "להתקיים",
+      "לשמור על",
+      "לשכנע"
+    ],
+    "answer": 3,
+    "explain": "convince = לשכנע",
+    "value": 10,
+    "word": "convince"
+  },
+  {
+    "id": "V40",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “opportunity”?",
+    "opts": [
+      "לכן",
+      "לדרוש",
+      "תועלת",
+      "הזדמנות"
+    ],
+    "answer": 3,
+    "explain": "opportunity = הזדמנות",
+    "value": 10,
+    "word": "opportunity"
+  },
+  {
+    "id": "V60",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “however”?",
+    "opts": [
+      "להימנע",
+      "עם זאת",
+      "גורם",
+      "לפתח"
+    ],
+    "answer": 1,
+    "explain": "however = עם זאת",
+    "value": 10,
+    "word": "however"
+  },
+  {
+    "id": "O14",
+    "type": "oreo",
+    "prompt": "Which sentence best concludes an essay about volunteering?",
+    "opts": [
+      "For these reasons, I believe volunteering benefits teenagers.",
+      "For example, I helped yesterday.",
+      "My first reason is...",
+      "What about lunch?"
+    ],
+    "answer": 0,
+    "explain": "Restate the opinion and wrap up.",
+    "value": 15
+  },
+  {
+    "id": "V37",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “majority”?",
+    "opts": [
+      "אחריות",
+      "גישה",
+      "רוב",
+      "מטרה"
+    ],
+    "answer": 2,
+    "explain": "majority = רוב",
+    "value": 10,
+    "word": "majority"
+  },
+  {
+    "id": "V44",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “purpose”?",
+    "opts": [
+      "פתרון",
+      "להשפיע",
+      "מטרה",
+      "דאגה"
+    ],
+    "answer": 2,
+    "explain": "purpose = מטרה",
+    "value": 10,
+    "word": "purpose"
+  },
+  {
+    "id": "V52",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “source”?",
+    "opts": [
+      "לעודד",
+      "מקור",
+      "לטעון",
+      "לכן"
+    ],
+    "answer": 1,
+    "explain": "source = מקור",
+    "value": 10,
+    "word": "source"
+  },
+  {
+    "id": "V35",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “issue”?",
+    "opts": [
+      "להציע",
+      "למנוע",
+      "סוגיה",
+      "להרשות לעצמו מבחינה כספית"
+    ],
+    "answer": 2,
+    "explain": "issue = סוגיה",
+    "value": 10,
+    "word": "issue"
+  },
+  {
+    "id": "O22",
+    "type": "oreo",
+    "prompt": "Which is the strongest reason for reading books?",
+    "opts": [
+      "Books are books.",
+      "Because I said so.",
+      "Reading can improve vocabulary and imagination.",
+      "I like blue."
+    ],
+    "answer": 2,
+    "explain": "Specific benefits build an argument.",
+    "value": 15
+  },
+  {
+    "id": "O12",
+    "type": "oreo",
+    "prompt": "Choose the strongest supporting detail.",
+    "opts": [
+      "Homework is homework.",
+      "Everyone knows it.",
+      "For example, a weekly plan helped me finish tasks on time.",
+      "It is nice."
+    ],
+    "answer": 2,
+    "explain": "Concrete examples develop your reasoning.",
+    "value": 15
+  },
+  {
+    "id": "V21",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “encourage”?",
+    "opts": [
+      "לעודד",
+      "הזדמנות",
+      "להביע",
+      "תוצאה"
+    ],
+    "answer": 0,
+    "explain": "encourage = לעודד",
+    "value": 10,
+    "word": "encourage"
+  },
+  {
+    "id": "V11",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “claim”?",
+    "opts": [
+      "להתמקד",
+      "הזדמנות",
+      "לטעון",
+      "ליצור"
+    ],
+    "answer": 2,
+    "explain": "claim = לטעון",
+    "value": 10,
+    "word": "claim"
+  },
+  {
+    "id": "V31",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “improve”?",
+    "opts": [
+      "תוצאה",
+      "שיטה",
+      "עם זאת",
+      "לשפר"
+    ],
+    "answer": 3,
+    "explain": "improve = לשפר",
+    "value": 10,
+    "word": "improve"
+  },
+  {
+    "id": "V41",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “persuade”?",
+    "opts": [
+      "אתגר",
+      "לשכנע",
+      "מחקר",
+      "עם זאת"
+    ],
+    "answer": 1,
+    "explain": "persuade = לשכנע",
+    "value": 10,
+    "word": "persuade"
+  },
+  {
+    "id": "O7",
+    "type": "oreo",
+    "prompt": "Which is an EXAMPLE?",
+    "opts": [
+      "For instance, our school raised money last year.",
+      "I firmly believe this.",
+      "To sum up, I agree.",
+      "There are many opinions."
+    ],
+    "answer": 0,
+    "explain": "A specific real or plausible example supports your point.",
+    "value": 15
+  },
+  {
+    "id": "V32",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “increase”?",
+    "opts": [
+      "להשיג",
+      "נחוץ",
+      "פתרון",
+      "להגדיל"
+    ],
+    "answer": 3,
+    "explain": "increase = להגדיל",
+    "value": 10,
+    "word": "increase"
+  },
+  {
+    "id": "V54",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “suggest”?",
+    "opts": [
+      "להשיג",
+      "להציע",
+      "דאגה",
+      "ראיות"
+    ],
+    "answer": 1,
+    "explain": "suggest = להציע",
+    "value": 10,
+    "word": "suggest"
+  },
+  {
+    "id": "V7",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “avoid”?",
+    "opts": [
+      "תוצאה",
+      "לשמור על",
+      "להימנע",
+      "לצפות"
+    ],
+    "answer": 2,
+    "explain": "avoid = להימנע",
+    "value": 10,
+    "word": "avoid"
+  },
+  {
+    "id": "V46",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “relevant”?",
+    "opts": [
+      "רלוונטי",
+      "לתמוך",
+      "לשקול",
+      "יתרון"
+    ],
+    "answer": 0,
+    "explain": "relevant = רלוונטי",
+    "value": 10,
+    "word": "relevant"
+  },
+  {
+    "id": "V29",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “factor”?",
+    "opts": [
+      "גורם",
+      "מחקר",
+      "סביר",
+      "לשמור על"
+    ],
+    "answer": 0,
+    "explain": "factor = גורם",
+    "value": 10,
+    "word": "factor"
+  },
+  {
+    "id": "O20",
+    "type": "oreo",
+    "prompt": "Which OREO plan is complete?",
+    "opts": [
+      "Opinion only",
+      "Opinion + opinion",
+      "Reason + example",
+      "Opinion + reason + example + restated opinion"
+    ],
+    "answer": 3,
+    "explain": "The four steps create an organized response.",
+    "value": 15
+  },
+  {
+    "id": "O3",
+    "type": "oreo",
+    "prompt": "What does E stand for in OREO?",
+    "opts": [
+      "Ending",
+      "Evidence / Example",
+      "Emotion",
+      "Explanation only"
+    ],
+    "answer": 1,
+    "explain": "E = Example or Evidence supporting the reason.",
+    "value": 15
+  },
+  {
+    "id": "V25",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “expand”?",
+    "opts": [
+      "להגדיל",
+      "להרחיב",
+      "מטרה",
+      "להציע"
+    ],
+    "answer": 1,
+    "explain": "expand = להרחיב",
+    "value": 10,
+    "word": "expand"
+  },
+  {
+    "id": "V10",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “challenge”?",
+    "opts": [
+      "נחוץ",
+      "לשכנע",
+      "אתגר",
+      "גורם"
+    ],
+    "answer": 2,
+    "explain": "challenge = אתגר",
+    "value": 10,
+    "word": "challenge"
+  },
+  {
+    "id": "V48",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “research”?",
+    "opts": [
+      "מגוון",
+      "להימנע",
+      "מחקר",
+      "לשכנע"
+    ],
+    "answer": 2,
+    "explain": "research = מחקר",
+    "value": 10,
+    "word": "research"
+  },
+  {
+    "id": "V9",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “benefit”?",
+    "opts": [
+      "להביע",
+      "תועלת",
+      "שיטה",
+      "לתרום"
+    ],
+    "answer": 1,
+    "explain": "benefit = תועלת",
+    "value": 10,
+    "word": "benefit"
+  },
+  {
+    "id": "V23",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “evidence”?",
+    "opts": [
+      "למנוע",
+      "להתמקד",
+      "ראיות",
+      "מקור"
+    ],
+    "answer": 2,
+    "explain": "evidence = ראיות",
+    "value": 10,
+    "word": "evidence"
+  },
+  {
+    "id": "O5",
+    "type": "oreo",
+    "prompt": "Which is the strongest opinion sentence?",
+    "opts": [
+      "School uniforms.",
+      "I believe school uniforms should be optional.",
+      "Some people have uniforms.",
+      "Uniforms exist."
+    ],
+    "answer": 1,
+    "explain": "A good opinion makes your position clear.",
+    "value": 15
+  },
+  {
+    "id": "V45",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “reduce”?",
+    "opts": [
+      "להפחית",
+      "להרשות לעצמו מבחינה כספית",
+      "תוצאה",
+      "מקור"
+    ],
+    "answer": 0,
+    "explain": "reduce = להפחית",
+    "value": 10,
+    "word": "reduce"
+  },
+  {
+    "id": "V4",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “afford”?",
+    "opts": [
+      "השפעה",
+      "לטעון",
+      "ראיות",
+      "להרשות לעצמו מבחינה כספית"
+    ],
+    "answer": 3,
+    "explain": "afford = להרשות לעצמו מבחינה כספית",
+    "value": 10,
+    "word": "afford"
+  },
+  {
+    "id": "V36",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “maintain”?",
+    "opts": [
+      "לספק",
+      "לשמור על",
+      "מגוון",
+      "יתרון"
+    ],
+    "answer": 1,
+    "explain": "maintain = לשמור על",
+    "value": 10,
+    "word": "maintain"
+  },
+  {
+    "id": "V43",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “provide”?",
+    "opts": [
+      "תוצאה",
+      "לספק",
+      "מדויק",
+      "להשוות"
+    ],
+    "answer": 1,
+    "explain": "provide = לספק",
+    "value": 10,
+    "word": "provide"
+  },
+  {
+    "id": "V38",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “method”?",
+    "opts": [
+      "שיטה",
+      "משמעותי",
+      "להימנע",
+      "להפחית"
+    ],
+    "answer": 0,
+    "explain": "method = שיטה",
+    "value": 10,
+    "word": "method"
+  },
+  {
+    "id": "O6",
+    "type": "oreo",
+    "prompt": "Which sentence gives a REASON?",
+    "opts": [
+      "For example, my sister cycles.",
+      "In conclusion, bikes are good.",
+      "This is because cycling reduces traffic.",
+      "I think cycling is good."
+    ],
+    "answer": 2,
+    "explain": "Because introduces an explanation or reason.",
+    "value": 15
+  },
+  {
+    "id": "O2",
+    "type": "oreo",
+    "prompt": "What does R stand for in OREO?",
+    "opts": [
+      "Review",
+      "Reason",
+      "Result",
+      "Research"
+    ],
+    "answer": 1,
+    "explain": "R = Reason: say why you think that.",
+    "value": 15
+  },
+  {
+    "id": "V47",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “require”?",
+    "opts": [
+      "גישה",
+      "לדרוש",
+      "להציע",
+      "לתרום"
+    ],
+    "answer": 1,
+    "explain": "require = לדרוש",
+    "value": 10,
+    "word": "require"
+  },
+  {
+    "id": "V56",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “responsibility”?",
+    "opts": [
+      "לשקול",
+      "להשפיע",
+      "להרחיב",
+      "אחריות"
+    ],
+    "answer": 3,
+    "explain": "responsibility = אחריות",
+    "value": 10,
+    "word": "responsibility"
+  },
+  {
+    "id": "O4",
+    "type": "oreo",
+    "prompt": "What does the final O do?",
+    "opts": [
+      "Adds a new topic",
+      "Repeats every word",
+      "Restates the opinion",
+      "Asks a question"
+    ],
+    "answer": 2,
+    "explain": "End with a clear restated opinion.",
+    "value": 15
+  },
+  {
+    "id": "V39",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “necessary”?",
+    "opts": [
+      "רלוונטי",
+      "נחוץ",
+      "סביר",
+      "מודע"
+    ],
+    "answer": 1,
+    "explain": "necessary = נחוץ",
+    "value": 10,
+    "word": "necessary"
+  },
+  {
+    "id": "V24",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “exist”?",
+    "opts": [
+      "להתקיים",
+      "לספק",
+      "לשפר",
+      "לתמוך"
+    ],
+    "answer": 0,
+    "explain": "exist = להתקיים",
+    "value": 10,
+    "word": "exist"
+  },
+  {
+    "id": "V59",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “therefore”?",
+    "opts": [
+      "להביע",
+      "גישה",
+      "ליצור",
+      "לכן"
+    ],
+    "answer": 3,
+    "explain": "therefore = לכן",
+    "value": 10,
+    "word": "therefore"
+  },
+  {
+    "id": "O8",
+    "type": "oreo",
+    "prompt": "Choose the best connector for a contrasting idea.",
+    "opts": [
+      "Moreover",
+      "However",
+      "For instance",
+      "Therefore"
+    ],
+    "answer": 1,
+    "explain": "However signals contrast.",
+    "value": 15
+  },
+  {
+    "id": "V14",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “consequence”?",
+    "opts": [
+      "השפעה",
+      "לספק",
+      "לעודד",
+      "תוצאה"
+    ],
+    "answer": 3,
+    "explain": "consequence = תוצאה",
+    "value": 10,
+    "word": "consequence"
+  },
+  {
+    "id": "V13",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “concern”?",
+    "opts": [
+      "דאגה",
+      "למנוע",
+      "להגדיל",
+      "מאמץ"
+    ],
+    "answer": 0,
+    "explain": "concern = דאגה",
+    "value": 10,
+    "word": "concern"
+  },
+  {
+    "id": "V22",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “environment”?",
+    "opts": [
+      "פתרון",
+      "סביבה",
+      "גורם",
+      "לשכנע"
+    ],
+    "answer": 1,
+    "explain": "environment = סביבה",
+    "value": 10,
+    "word": "environment"
+  },
+  {
+    "id": "V26",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “expect”?",
+    "opts": [
+      "לצפות",
+      "השפעה",
+      "מגוון",
+      "להפחית"
+    ],
+    "answer": 0,
+    "explain": "expect = לצפות",
+    "value": 10,
+    "word": "expect"
+  },
+  {
+    "id": "V57",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “significant”?",
+    "opts": [
+      "משמעותי",
+      "לצפות",
+      "לתרום",
+      "להרשות לעצמו מבחינה כספית"
+    ],
+    "answer": 0,
+    "explain": "significant = משמעותי",
+    "value": 10,
+    "word": "significant"
+  },
+  {
+    "id": "O24",
+    "type": "oreo",
+    "prompt": "Choose the correct sentence.",
+    "opts": [
+      "Students should helps others.",
+      "Students should helping others.",
+      "Students should help others.",
+      "Students should helped others."
+    ],
+    "answer": 2,
+    "explain": "After should use the base form of the verb.",
+    "value": 15
+  },
+  {
+    "id": "V50",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “result”?",
+    "opts": [
+      "תועלת",
+      "משמעותי",
+      "תוצאה",
+      "לפתח"
+    ],
+    "answer": 2,
+    "explain": "result = תוצאה",
+    "value": 10,
+    "word": "result"
+  },
+  {
+    "id": "O25",
+    "type": "oreo",
+    "prompt": "Which is the clearest final O?",
+    "opts": [
+      "That is why I believe daily exercise is important.",
+      "For example, I walk.",
+      "Because it is useful.",
+      "Exercise, exercise."
+    ],
+    "answer": 0,
+    "explain": "The final O restates the position with a clear ending.",
+    "value": 15
+  },
+  {
+    "id": "V16",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “contribute”?",
+    "opts": [
+      "סוגיה",
+      "להפחית",
+      "לתרום",
+      "ראיות"
+    ],
+    "answer": 2,
+    "explain": "contribute = לתרום",
+    "value": 10,
+    "word": "contribute"
+  },
+  {
+    "id": "V12",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “compare”?",
+    "opts": [
+      "לשפר",
+      "לפתח",
+      "לשכנע",
+      "להשוות"
+    ],
+    "answer": 3,
+    "explain": "compare = להשוות",
+    "value": 10,
+    "word": "compare"
+  },
+  {
+    "id": "V27",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “experience”?",
+    "opts": [
+      "לערב",
+      "ניסיון",
+      "רלוונטי",
+      "אחריות"
+    ],
+    "answer": 1,
+    "explain": "experience = ניסיון",
+    "value": 10,
+    "word": "experience"
+  },
+  {
+    "id": "V53",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “support”?",
+    "opts": [
+      "עם זאת",
+      "סביבה",
+      "להשוות",
+      "לתמוך"
+    ],
+    "answer": 3,
+    "explain": "support = לתמוך",
+    "value": 10,
+    "word": "support"
+  },
+  {
+    "id": "V58",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “likely”?",
+    "opts": [
+      "לשכנע",
+      "ניסיון",
+      "סביר",
+      "יתרון"
+    ],
+    "answer": 2,
+    "explain": "likely = סביר",
+    "value": 10,
+    "word": "likely"
+  },
+  {
+    "id": "O17",
+    "type": "oreo",
+    "prompt": "What is the Module C opinion composition target in the 4-point handbook?",
+    "opts": [
+      "20–30 words",
+      "70–90 words",
+      "150–200 words",
+      "250 words"
+    ],
+    "answer": 1,
+    "explain": "The 4-point handbook gives 70–90 words for the Module C composition.",
+    "value": 15
+  },
+  {
+    "id": "O16",
+    "type": "oreo",
+    "prompt": "Which example is most relevant to “Should schools start later?”",
+    "opts": [
+      "My cousin likes pasta.",
+      "Many sports are popular.",
+      "For example, some teenagers struggle to focus in early lessons.",
+      "I have a bicycle."
+    ],
+    "answer": 2,
+    "explain": "An example must support the actual claim.",
+    "value": 15
+  },
+  {
+    "id": "O15",
+    "type": "oreo",
+    "prompt": "Which sentence uses a correct cause connector?",
+    "opts": [
+      "Because it help.",
+      "It matters because students learn responsibility.",
+      "Because therefore helpful.",
+      "It because helps is."
+    ],
+    "answer": 1,
+    "explain": "Because connects a clear reason to the opinion.",
+    "value": 15
+  },
+  {
+    "id": "V8",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “aware”?",
+    "opts": [
+      "רוב",
+      "ניסיון",
+      "מודע",
+      "לשקול"
+    ],
+    "answer": 2,
+    "explain": "aware = מודע",
+    "value": 10,
+    "word": "aware"
+  },
+  {
+    "id": "V5",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “advantage”?",
+    "opts": [
+      "לערב",
+      "יתרון",
+      "להתקיים",
+      "להשוות"
+    ],
+    "answer": 1,
+    "explain": "advantage = יתרון",
+    "value": 10,
+    "word": "advantage"
+  },
+  {
+    "id": "O21",
+    "type": "oreo",
+    "prompt": "Which sentence is an opinion rather than a fact?",
+    "opts": [
+      "School begins at 8:00.",
+      "I believe lessons should begin later.",
+      "The bus has 40 seats.",
+      "Our classroom has windows."
+    ],
+    "answer": 1,
+    "explain": "An opinion is a viewpoint that can be argued.",
+    "value": 15
+  },
+  {
+    "id": "O19",
+    "type": "oreo",
+    "prompt": "Which is the most useful revision?",
+    "opts": [
+      "Change “good” to a specific reason",
+      "Add unrelated sentences",
+      "Remove every example",
+      "Repeat the opinion five times"
+    ],
+    "answer": 0,
+    "explain": "Specificity improves content and clarity.",
+    "value": 15
+  },
+  {
+    "id": "V30",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “focus”?",
+    "opts": [
+      "לכן",
+      "רוב",
+      "להגיב",
+      "להתמקד"
+    ],
+    "answer": 3,
+    "explain": "focus = להתמקד",
+    "value": 10,
+    "word": "focus"
+  },
+  {
+    "id": "O9",
+    "type": "oreo",
+    "prompt": "Choose the best connector to give an example.",
+    "opts": [
+      "Although",
+      "Finally",
+      "For example",
+      "Because"
+    ],
+    "answer": 2,
+    "explain": "For example introduces evidence.",
+    "value": 15
+  },
+  {
+    "id": "O23",
+    "type": "oreo",
+    "prompt": "What should you avoid in Module C writing?",
+    "opts": [
+      "A clear opinion",
+      "Relevant examples",
+      "Unrelated details",
+      "Linking words"
+    ],
+    "answer": 2,
+    "explain": "Stay focused on the prompt.",
+    "value": 15
+  },
+  {
+    "id": "V18",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “create”?",
+    "opts": [
+      "להרחיב",
+      "לדרוש",
+      "רוב",
+      "ליצור"
+    ],
+    "answer": 3,
+    "explain": "create = ליצור",
+    "value": 10,
+    "word": "create"
+  },
+  {
+    "id": "V6",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “approach”?",
+    "opts": [
+      "דאגה",
+      "סוגיה",
+      "גישה",
+      "להרחיב"
+    ],
+    "answer": 2,
+    "explain": "approach = גישה",
+    "value": 10,
+    "word": "approach"
+  },
+  {
+    "id": "V19",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “develop”?",
+    "opts": [
+      "לפתח",
+      "שיטה",
+      "מחקר",
+      "לצפות"
+    ],
+    "answer": 0,
+    "explain": "develop = לפתח",
+    "value": 10,
+    "word": "develop"
+  },
+  {
+    "id": "V51",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “solution”?",
+    "opts": [
+      "מאמץ",
+      "סביר",
+      "אתגר",
+      "פתרון"
+    ],
+    "answer": 3,
+    "explain": "solution = פתרון",
+    "value": 10,
+    "word": "solution"
+  },
+  {
+    "id": "V15",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “consider”?",
+    "opts": [
+      "סביבה",
+      "לשקול",
+      "מטרה",
+      "לערב"
+    ],
+    "answer": 1,
+    "explain": "consider = לשקול",
+    "value": 10,
+    "word": "consider"
+  },
+  {
+    "id": "O1",
+    "type": "oreo",
+    "prompt": "What does O stand for at the beginning of OREO?",
+    "opts": [
+      "Opinion",
+      "Organization",
+      "Option",
+      "Opposite"
+    ],
+    "answer": 0,
+    "explain": "O = Opinion: state your view clearly.",
+    "value": 15
+  },
+  {
+    "id": "V2",
+    "type": "vocab",
+    "prompt": "What is the best Hebrew translation of “accurate”?",
+    "opts": [
+      "מדויק",
+      "לעודד",
+      "לשפר",
+      "תועלת"
+    ],
+    "answer": 0,
+    "explain": "accurate = מדויק",
+    "value": 10,
+    "word": "accurate"
+  }
+]

@@ -1,0 +1,1 @@
+{"name":"band-iii-neon-battle-arena","version":"3.0.0","description":"Live multiplayer Module C vocabulary, OREO and earned shields","private":true,"scripts":{"start":"node server.js"},"engines":{"node":">=18"}}

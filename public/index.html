@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#090c20"><title>Band III · Neon Battle Arena</title><link rel="stylesheet" href="/style.css"></head>
+<body><div class="stars" aria-hidden="true"></div><div class="skybeams" aria-hidden="true"></div>
+<header class="topbar">
+  <div class="brand"><div class="brand-crest" aria-hidden="true">⚔</div><div><div class="eyebrow neon-cyan">MODULE C · 11TH GRADE</div><h1>BAND III <span>BATTLE ARENA</span></h1><div class="subhead">VOCABULARY <b>◆</b> OREO WRITING <b>◆</b> REAL-TIME DUELS</div></div></div>
+  <div class="header-right"><div class="status" id="connection">● Connecting…</div><div class="room-pill">ROOM <strong id="topRoom">······</strong></div></div>
+</header>
+<div class="arena-shell">
+ <section id="join" class="glass join-card"><div class="mini-label">WELCOME TO THE ARENA</div><div class="big-emblem">⚡</div><h2>READY, PLAYER ONE?</h2><p class="quiet">Enter the room code from the projector and your real first name + initial.</p><label>ROOM CODE <input id="room" maxlength="6" autocomplete="off" autocapitalize="characters" placeholder="ABC123"></label><label>PLAYER NAME <input id="name" maxlength="32" autocomplete="off" placeholder="e.g. Maya L."></label><button id="joinButton" class="action primary wide">ENTER THE ARENA <span>➜</span></button><p id="joinError" class="error" role="alert"></p></section>
+ <div class="columns">
+  <div class="primary-column">
+   <section class="arena-stage glass" id="stage"><div class="stage-head"><span class="mini-label"><span class="pulse-dot"></span> LIVE ARENA</span><span class="stage-count" id="roundLabel">LOBBY</span></div>
+    <div id="challenge" class="challenge"></div>
+   </section>
+   <section id="shieldPanel" class="glass shield-panel hidden"><div class="section-head"><div><div class="mini-label gold-label">RARE POWER-UP</div><h2>🛡️ EARN YOUR SHIELD</h2></div><span class="shield-status" id="shieldIndicator">ONE TRY ONLY</span></div><div id="shieldContent"></div></section>
+   <section id="requestPanel" class="glass request-panel hidden"><div class="section-head"><div><div class="mini-label neon-cyan">CHALLENGE A FRIEND</div><h2>⚔️ CALL YOUR RIVAL</h2></div><span class="teacher-tag">TEACHER APPROVAL</span></div><div id="requestContent"></div></section>
+   <section id="host" class="glass controls-panel hidden"><div class="section-head"><div><div class="mini-label neon-cyan">COMMAND DECK</div><h2>🎛 TEACHER CONTROL</h2></div><span class="teacher-tag">PRIVATE</span></div><p class="quiet">Project this view. Students use the same main URL without the private teacher code.</p>
+    <div class="host-grid"><label>ANSWERING PLAYER<select id="actor"></select></label><label>OPPONENT<select id="target"></select></label><label>QUESTION BANK<select id="category"><option value="any">Mixed • All questions</option><option value="vocab">Band III Vocabulary</option><option value="oreo">OREO Writing</option></select></label></div>
+    <div class="action-grid"><button class="action primary" data-mode="all">⚡ ALL PLAY</button><button class="action outline-cyan" data-mode="normal">🎯 SPOTLIGHT</button><button class="action purple" data-mode="duel">⚔ DOUBLE DUEL</button><button class="action pink" data-mode="steal">💎 STEAL</button></div>
+    <div class="secondary-actions"><button class="action secondary" id="closeRound">Reveal / End round</button><button class="action secondary" id="next">Next round</button><button class="action secondary" id="skip">Skip question</button><button class="action secondary" id="shieldToggle">Open shield challenge</button></div>
+    <div id="challengeQueue" class="challenge-queue"></div><div class="secondary-actions"><button class="action subtle" id="csv">⇩ Export scores</button><button class="action subtle" id="logcsv">⇩ Export answers</button><button class="action subtle" id="shieldcsv">⇩ Export shield writing</button></div>
+    <details class="admin-more"><summary>Teacher administration</summary><p class="quiet">Reset generates a new code and removes the current game's scores and shields.</p><button class="action danger" id="reset">Reset game</button></details><p class="error" id="hostError" role="alert"></p>
+   </section>
+   <section class="glass insight-panel" id="details"><div class="section-head"><div><div class="mini-label">LEARNING INTELLIGENCE</div><h2>CLASS PROGRESS</h2></div></div><div id="progress" class="stat-grid"></div><details><summary>Recent answers</summary><div id="history"></div></details><div id="reviewArea" class="hidden"><h3>📝 Shield submissions awaiting teacher review</h3><p class="quiet">Automatic grading activates when OPENAI_API_KEY is securely configured on the server.</p><div id="pendingReviews"></div></div></section>
+  </div>
+  <aside class="side-column"><section class="glass leaderboard-panel"><div class="section-head"><div><div class="mini-label neon-cyan">LIVE RANKINGS</div><h2>🏆 LEADERBOARD</h2></div><span class="live-indicator">● LIVE</span></div><div id="leaderboard"></div><div class="board-bottom"><span id="remaining">85 questions remaining</span><span id="playerCount">0 PLAYERS</span></div></section><section class="glass player-panel hidden" id="personal"><div class="mini-label">YOUR PLAYER CARD</div><div id="personalContent"></div></section></aside>
+ </div>
+</div>
+<footer>Band III-style vocabulary practice · Module C-style opinion writing · Mini shield responses are graded without length deductions. AI grading is formative, not an official Bagrut grade. Use first name and initial only.</footer><script src="/client.js"></script></body></html>
